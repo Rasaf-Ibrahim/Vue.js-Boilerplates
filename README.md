@@ -5,5 +5,5 @@ Main branch is empty but there are some other branches in this repositroy. Each 
 ### Branch Link
 
  
-##### nuxt-scss-boilerplate <br/>
+##### Branch Name: nuxt-scss-boilerplate <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Project/tree/nuxt-scss-boilerplate) <br/>
