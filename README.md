@@ -1,4 +1,4 @@
-# saas-client
+# nuxt-scss-boilerplate
 
 ## Build Setup
 
