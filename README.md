@@ -1,20 +1,8 @@
-# Vue.js-Project
+### About Main Branch
 
-## Build Setup
+Each folder of the main branch has it's own branch in this repository. 
 
-```bash
-# install dependencies
-$ npm install
+### Branch Link & Live Demo
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+> nuxt-scss-boilerplate <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Slider-with-swiper.js/tree/01) <br/>
