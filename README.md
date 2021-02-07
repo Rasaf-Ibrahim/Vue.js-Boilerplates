@@ -2,5 +2,5 @@
 
 ## Link of the other branches
 
-#### Branch Name: nuxt-scss-boilerplate <br/>
+#### nuxt-scss-boilerplate <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Project/tree/nuxt-scss-boilerplate) <br/>
