@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>nuxt-scss boilerplate</h1>
+    <h1>nuxt-scss-compositon-api boilerplate</h1>
   </div>
 </template>
 
