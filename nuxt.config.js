@@ -41,9 +41,28 @@ export default {
   modules: [
     '@nuxtjs/style-resources', 
     '@nuxtjs/composition-api',
-    '@nuxtjs/router'
+    '@nuxtjs/router',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: '<apiKey>',
+          authDomain: '<authDomain>',
+          databaseURL: '<databaseURL>',
+          projectId: '<projectId>',
+          storageBucket: '<storageBucket>',
+          messagingSenderId: '<messagingSenderId>',
+          appId: '<appId>',
+          measurementId: '<measurementId>'
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
   ],
 
+  
   styleResources: {
     scss: ['~/assets/styles/_index.scss'],
   },

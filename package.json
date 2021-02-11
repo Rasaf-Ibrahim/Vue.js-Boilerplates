@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "@nuxtjs/composition-api": "^0.19.1",
+    "@nuxtjs/firebase": "^7.4.1",
     "@nuxtjs/router": "^1.5.0",
     "core-js": "^3.8.3",
+    "firebase": "^8.2.6",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
