@@ -1,4 +1,4 @@
-# nuxt-scss-composition_api-boilerplate
+# nuxt-scss-composition_api-firebase-boilerplate
 
 ## Build Setup
 
