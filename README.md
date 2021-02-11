@@ -1,8 +1,11 @@
 ##### Note: Main branch is empty but there are some other branches in this repositroy. Each branch has a different boilerplate.
 ## Link of the other branches
 
-### nuxt-scss-boilerplate <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-boilerplate) <br/>
+
+
+### Branch Name: 001 <br/>
+## Boilerplate: Nuxt & SCSS <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
 
 ### nuxt-scss-firebase-boilerplate <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-firebase-boilerplate) <br/>
