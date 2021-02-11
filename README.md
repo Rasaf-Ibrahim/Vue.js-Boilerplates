@@ -1,4 +1,4 @@
-# nuxt-scss-boilerplate
+# Boilerplate of Nuxt, SCSS & Firebase
 
 ## Build Setup
 
