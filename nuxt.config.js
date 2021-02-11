@@ -41,7 +41,6 @@ export default {
   modules: [
     '@nuxtjs/style-resources', 
     '@nuxtjs/composition-api',
-    '@nuxtjs/router',
     [
       '@nuxtjs/firebase',
       {
@@ -62,7 +61,7 @@ export default {
     ]
   ],
 
-  
+
   styleResources: {
     scss: ['~/assets/styles/_index.scss'],
   },
