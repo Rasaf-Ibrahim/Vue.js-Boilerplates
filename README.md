@@ -3,4 +3,9 @@
 ## Link of the other branches
 
 ### nuxt-scss-boilerplate <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Project/tree/nuxt-scss-boilerplate) <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-boilerplate) <br/>
+
+### nuxt-scss-composition-api-boilerplate <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-compostion-api-boilerplate) <br/>
+
+
