@@ -1,4 +1,4 @@
-# Boilerplate: Nuxt & SCSS
+# Boilerplate of Nuxt & SCSS
 
 ## Build Setup
 
