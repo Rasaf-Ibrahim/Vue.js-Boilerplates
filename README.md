@@ -1,4 +1,4 @@
-# nuxt-scss-boilerplate
+# nuxt-scss-composition_api-boilerplate
 
 ## Build Setup
 
