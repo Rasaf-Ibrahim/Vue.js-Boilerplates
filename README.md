@@ -3,7 +3,7 @@
 
 
 
-### Branch Name: 001 | #### Boilerplate: Nuxt & SCSS <br/>
+### Branch Name: 001 | Boilerplate of Nuxt & SCSS <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
 
 ### nuxt-scss-firebase-boilerplate <br/>
