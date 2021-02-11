@@ -4,7 +4,18 @@
 ### nuxt-scss-boilerplate <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-boilerplate) <br/>
 
+### nuxt-scss-firebase-boilerplate <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-firebase-boilerplate) <br/>
+
+
 ### nuxt-scss-composition-api-boilerplate <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-compostion-api-boilerplate) <br/>
+
+### nuxt-scss-composition-api-firebase-boilerplate <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-composition_api-firebase-boilerplate) <br/>
+
+### nuxt-scss-router-compositon_api-firebase-boilerplate <br/>
+[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/nuxt-scss-router-compositon_api-firebase-boilerplate) <br/>
+
 
 
