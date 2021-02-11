@@ -8,7 +8,6 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxtjs/composition-api": "^0.19.1",
     "@nuxtjs/firebase": "^7.4.1",
     "core-js": "^3.8.3",
     "firebase": "^8.2.6",
