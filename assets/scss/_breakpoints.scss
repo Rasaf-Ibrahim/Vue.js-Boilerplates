@@ -1,0 +1,96 @@
+
+/* 
+Breakpoint no. 1 (576px or 36em):
+
+A portrait mobile screen can’t be bigger than 550px because people need to hold their phone in one hand and a Landscape mobile screen or tablet screen can’t be smaller than 640px. So, 576px (36em) will be a safe breakpoint.
+
+Breakpoint no.2 (992px or 62em):
+
+Generally, Landscape mobile screen will not be bigger than 900px and most of tablet will not be wider than 950px. So, 992px (62em) will be a safe breakpoint.
+
+Breakpoint no.3 (1392px or 87em):
+
+1 inches = 96px. So, A 15.6 inch laptop screen width will be about 1498px. ALthough my 15.6 inch laptop's breakpoint was 1276px. Thus we can say, 15.6 inches+ screen will be more than 1280px obviously. So, 1392px   (87em) will be a safe breakpoint.
+
+*/
+
+
+// mixin-1: Medium Screen and up
+
+@mixin mq-md {
+   @media screen and (min-width: 36em){
+       @content;
+   }
+}
+
+
+// mixin-2: Large Screen and up
+
+@mixin mq-lg {
+    @media screen and (min-width: 62em){
+        @content;
+    }
+ }
+
+// mixin-3: Extra Large Screen and up
+
+@mixin mq-xl {
+    @media screen and (min-width: 87em){
+        @content;
+    }
+ }
+
+/*
+
+If you style your site with mobile site approach, then above 3 mixin is enough.
+
+Because small screen (portrait mobile) will be your default style. After that, if you want change something in the medium size screen, you will use the mixin-1's style. Then if you want to change any style in large screen, you will use the mixin-2's style. And at last, if you want to change any style on the extra large screen, you can use the mixin-3's style.
+
+
+************************************************************
+
+
+Suppose, you don't like tha mobile first style approach and you want to use a specific screen only. Then you can use the following mixins:
+
+*/
+
+
+// mixin-4: Small Screen Only  (575px = 35.9375em)
+
+@mixin mq-sm-o {
+    @media screen and (max-width: 35.9375em){
+        @content;
+    }
+ }
+ 
+// mixin-5: Medium Screen only (991px = 63.9375em)
+
+@mixin mq-md-o {
+    @media screen and (min-width: 36em) and (max-width: 61.9375em){
+        @content;
+    }
+ }
+
+
+ // mixin-6: Large Screen only (1391px = 86.93753em)
+
+@mixin mq-lg-o {
+   @media screen and (min-width: 62em) and (max-width: 86.9375){
+       @content;
+   }
+}
+
+
+
+
+
+
+
+
+// 1 inch = 96px
+// 1em = 16px
+// 1px = 0.0625 em
+
+
+
+
