@@ -1,4 +1,4 @@
-# gama
+# Boilerplate of Nuxt & SCSS
 
 ## Build Setup
 
@@ -18,3 +18,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## How to add SCSS with a newly installed nuxt project.
+
+After installing nuxt, run 'npm install sass sass-loader@10 fibers --save-dev' so that you can use sass. You can get this command from nuxt official website. Just check before you run this command so that you can change the command if the official document have changed it.</p>
+
+We will just run this command, nothing more. We will not edit our nuxt.config.js and so we have to import the sass file loacation everytime when we want to use that in a component or page. But I guess that's not a hard work to do. Check the style section of the index.vue page. You will see that I have just imported one scss file. Actually other scss file are imported on that one main file. 
