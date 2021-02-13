@@ -1,0 +1,8 @@
+
+@mixin flex-center ($flex-direction:row) {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: $flex-direction;
+}
+// Maybe Default argument of flex-direction of 'row' wasn't necessary here because by default, flex-direciton is row.
