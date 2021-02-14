@@ -24,7 +24,9 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 After installing nuxt, run 'npm install sass sass-loader@10 fibers --save-dev' so that you can use sass. You can get this command from nuxt official website. Just check before you run this command so that you can change the command if the official document have changed it.
 
-We will just run this command, nothing more. We will not edit our nuxt.config.js and so we have to import the sass file loacation everytime when we want to use that in a component or page. But I guess that's not a hard work to do. Check the style section of the index.vue page. You will see that I have just imported one scss file. Actually other scss file are imported on that one main file. 
+We will just run this command, nothing more. We will not edit our nuxt.config.js and so we have to import the sass file loacation everytime when we want to use that in a component or page.  Although it's little bit more work than **style-resources-module** but that module wasn't working perfectly for me! So, I have choosed this way. But both way works the same. You can inspect and see!
+
+Only  import variables, mixins, functions (et cetera) as they won't exist in the actual build. Importing actual styles will include them in every component. So, it will be wise to  import acatual style only if they are global style.  
 
 
 ## What's inside
