@@ -31,6 +31,6 @@ Only  import variables, mixins, functions (et cetera) as they won't exist in the
 
 ## What's inside
 
-In the 'assests' folder, there is a 'scss' folder where all the prefered of mine of Sass is stored. 
+In the 'assests' folder, there is a 'scss' folder where all my prefered Sass is stored. 
 
 There is a component in the component section named as 'copyThis.vue' which you can copy everytime when you want to make a page, component or a layout.  You could use 'vbase' command but import code of Sass is also written down in the 'copyThis.vue' component, that helps, right?
