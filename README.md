@@ -7,7 +7,7 @@
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
 
 
-### Branch Name: 003 | Boilerplate of Nuxt, SCSS & Bulma <br/>
+### Branch Name: 004 | Boilerplate of Nuxt, SCSS & Bulma <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/004 ) <br/>
 
 ### Branch Name: 003 | Boilerplate of Nuxt, SCSS & BootstrapVue <br/>
