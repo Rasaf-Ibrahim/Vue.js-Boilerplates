@@ -1,0 +1,12 @@
+@import 'breakpoints';
+
+
+// Content
+@mixin content-wrapper {
+    width: 100%;
+
+    @include mq-lg{
+      width: 800px;
+      margin: auto;
+    }
+}

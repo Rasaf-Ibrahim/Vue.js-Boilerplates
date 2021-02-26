@@ -1,0 +1,37 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+
+ /* 
+ Elements will be stripped of margins and padding, and box-sizing lets you manage layouts using the CSS box model.
+
+ Inheriting the box-sizing from the html selector
+ makes it easier to change box-sizing in plugins or other components that leverage other behavior.
+
+ You can also add font-family there if you haven't already to use globally.
+*/
+  
+
+
+
+
+  
+
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+

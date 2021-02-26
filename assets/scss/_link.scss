@@ -1,0 +1,32 @@
+
+@mixin link{
+
+    text-decoration: none;
+    color: $blue;
+  }
+
+
+@mixin link-lighten($set-color:$blue, $set-amount:0) {
+
+    text-decoration: none;
+    color: lighten($color: $set-color, $amount: $set-amount)
+  }
+  
+  
+ @mixin link-darken($set-color:$blue, $set-amount:0) {
+  
+    text-decoration: none;
+    color: darken($color: $set-color, $amount: $set-amount)
+ }
+
+
+ /*
+ lighten and darken fuction..
+
+color: lighten($color: blue, $amoount: 20)
+
+color: darken($color: blue, $amoount: 20)
+
+amount range can be from 0-100
+
+ */
