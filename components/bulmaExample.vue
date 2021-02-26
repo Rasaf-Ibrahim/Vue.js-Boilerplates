@@ -83,3 +83,19 @@ Ghost
 }
 
 </style>
+
+
+/*
+(According to me!) Method of writing html and css framework's class which will be easy to look at and understand 
+
+1. Use 'div' everywhere as bulma reset all html elements.
+
+2. Add comment like the above example's <template> section
+
+3. When you will just need to use one css class, then you can use it like above example's button section.
+
+4. But if there is multiple css class to be used then above example div where multiple css class is used. 
+
+5. You may find pattern of writing multiple css classes in the above example Like all the classes which provide good look for the content is in a line, all the classes which position the content in the right place is in another line and all the classes which are for styling with scss is in another line. 
+
+*/
