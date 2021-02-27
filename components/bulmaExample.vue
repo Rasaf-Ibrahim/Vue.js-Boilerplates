@@ -82,7 +82,21 @@ Ghost
     color: $white;
 }
 
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -114,3 +128,10 @@ If you see the above example's <style> section, you will understand that how scs
 
 
 */
+
+
+
+
+</style>
+
+
