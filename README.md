@@ -3,16 +3,15 @@
 
 
 
-### Branch Name: 001 | Boilerplate of Nuxt & SCSS <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
+### Boilerplate of Nuxt & SCSS | Branch Name: 001 | [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
 
 
-### Branch Name: 004 | Boilerplate of Nuxt, SCSS & Bulma <br/>
+### Boilerplate of Nuxt, SCSS & Bulma | Branch Name: 004  <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/004 ) <br/>
 
-### Branch Name: 003 | Boilerplate of Nuxt, SCSS & BootstrapVue <br/>
+### Boilerplate of Nuxt, SCSS & BootstrapVue | Branch Name: 003  <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/003 ) <br/>
 
-### Branch Name: 002 | Boilerplate of Nuxt, SCSS & Firebase <br/>
+### Boilerplate of Nuxt, SCSS & Firebase | Branch Name: 002   <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/002) <br/>
 
