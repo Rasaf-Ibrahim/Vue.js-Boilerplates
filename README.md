@@ -20,9 +20,15 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
-## How to add SCSS with a newly installed nuxt project.
+## Way to add SCSS with a newly installed nuxt project.
 
-After installing nuxt, run 'npm install sass sass-loader@10 fibers --save-dev' so that you can use sass. You can get this command from nuxt official website. Just check before you run this command so that you can change the command if the official document have changed it.
+After installing nuxt, run
+
+```
+npm install sass sass-loader@10 fibers --save-dev
+```
+
+so that you can use sass. You can get this command from nuxt official website. Just check before you run this command so that you can change the command if the official document have changed it.
 
 We will just run this command, nothing more. We will not edit our nuxt.config.js and so we have to import the sass file loacation everytime when we want to use that in a component or page.  Although it's little bit more work than **style-resources-module** but that module wasn't working perfectly for me! So, I have choosed this way. But both way works the same. You can inspect and see!
 
