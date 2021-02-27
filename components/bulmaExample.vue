@@ -86,16 +86,31 @@ Ghost
 
 
 /*
-(According to me!) Method of writing html and css framework's class which will be easy to look at and understand 
+
+**My preferred way of writing html and css framework's class which I think is easy to look at and understand (Other may find it useless!)**
+
 
 1. Use 'div' everywhere as bulma reset all html elements.
 
-2. Add comment like the above example's <template> section
+2. Adding comment like the above example's <template> section is must to distinguish content as I am just div element almost everywhere
 
 3. When you will just need to use one css class, then you can use it like above example's button section.
 
-4. But if there is multiple css class to be used then above example div where multiple css class is used. 
+4. But if there are multiple css classes needed to be used then follow the above example's divs where multiple css classes is used. 
 
-5. You may find pattern of writing multiple css classes in the above example Like all the classes which provide good look for the content is in a line, all the classes which position the content in the right place is in another line and all the classes which are for styling with scss is in another line. 
+5. You may find pattern of writing multiple css classes in the above example. Such as the classes which provide good look for the content is in a line, all the classes which are used for positioning the content in the right place is in another line and all the classes which are for styling with the scss is in another line. 
+
+*/
+
+
+
+
+
+/*
+
+**SCSS**
+
+If you see the above example's <style> section, you will understand that how scss is used with the bulma in a same component.
+
 
 */
