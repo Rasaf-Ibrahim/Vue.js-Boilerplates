@@ -12,11 +12,19 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+      
+    script: [
+      {
+        src: '/bootstrap.bundle.min.js',
+      }
+    ],
+
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [ '~/assets/global.css'
+  css: [ { src: '~/assets/bootstrap/mystyle.scss', lang: 'sass'} 
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
