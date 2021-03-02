@@ -53,7 +53,7 @@ npm install --save-dev sass sass-loader fibers postcss postcss-loader autoprefix
 #### Adding the CSS Part of Bootstrap and the Customized Bootstrap
 
 
-At first, create a folder in your nuxt project’s **assests** folder and a scss file inside the created folder. Suppose, the folder’s name is bootstrap and the file name is ‘mystyle.scss’. In this mystyle.scss file, you can override any built-in custom Bootstrap variables.
+At first, create a folder in your nuxt project’s **assests** folder and also create a scss file inside the created folder. Suppose, the folder’s name is bootstrap and the file name is ‘mystyle.scss’. Now, on this mystyle.scss file, you can override any built-in custom Bootstrap variables.
 But you need to import bootstrap styles in this mystyle.scss too. From the Webpack page of bootstrap documentation, you will know that you need the following line to import Boostrap styles
 
 ```
