@@ -30,7 +30,7 @@ Check Nuxt, Scss boilerplate's **Readme.md** to know that!
 
 #### Installation 
 
-In the  bootstrap's official documentation, you will get a **webpack** page where the way of getting start with bootstrap by using webpack is documented. From that page, you will know that at first you need to install bootstrap
+In the bootstrap’s official documentation, you will get a **Webpack** page where the way of getting started with bootstrap by using Webpack is documented. From that page, you will know that at first, you need to install bootstrap
 
 ```
 npm install bootstrap@next
@@ -53,9 +53,8 @@ npm install --save-dev sass sass-loader fibers postcss postcss-loader autoprefix
 #### Adding the CSS Part of Bootstrap and the Customized Bootstrap
 
 
-At first, create a folder in your nuxt project's **assests** folder and a scss file inside the created folder. Suppose, the folder's name is bootstrap and the file name is 'mystyle.scss'. In this mystyle.scss file, you can  override any built-in custom Bootstrap variables. 
-
-But you need to import bootstrap styles  in this mystyle.scss too. From the webpack page of bootstrap documentation, you will know that you need the following line to import boostrap styles
+At first, create a folder in your nuxt project’s **assests** folder and a scss file inside the created folder. Suppose, the folder’s name is bootstrap and the file name is ‘mystyle.scss’. In this mystyle.scss file, you can override any built-in custom Bootstrap variables.
+But you need to import bootstrap styles in this mystyle.scss too. From the Webpack page of bootstrap documentation, you will know that you need the following line to import Boostrap styles
 
 ```
 @import "~bootstrap/scss/bootstrap";
@@ -76,18 +75,15 @@ export default {
  }
 
 ```
-
-This will not only compile the overrided bootstrap styles but also add the bootstrap style in the whole nuxt project.
+This will not only compile the overridden bootstrap styles but also add the bootstrap style in the whole nuxt project.
 
 
 #### Adding the Javascript Part of Bootstrap  
 
-From the webpack page of the documenataion, you will also  know that you need to import Javascript and the way of doing it. But you need to import Javascipt little bit diffently in nuxt. 
-
-First, download bootstarp. You will get a css and a js folder on that downloaded folder. There are many files under those two folders. If you want to know which file contains what, you can read that in the documentation. Currently there is page named as 'content' under 'Getting Started' section in the documentation where you read about files structure and which files contain what. 
-Anyway, we just need one file from js folder. The name of that file is **bootstrap.bundle.min.js** It has not only all the js file but 'popper' is included. From the webpack page of the documentaion, you will know that "Bootstrap depends on Popper, which is specified in the peerDependencies property. This means that you will have to make sure to add it to your package.json using npm install @popperjs/core." But as we are using 'bootstrap.bundle.min.js', we will not need to install popper. 
-Anyway, copy that 'bootstrap.bundle.min.js' and paste that file on your nuxt project's **static** folder. Then you need to edit your nuxt.config.js to use it. 
-
+From the webpack page of the documentation, you will also know that you need to import Javascript and the way of doing it. But you need to import Javascript a little bit differently in nuxt.
+First, download Bootstrap. You will get a ‘css’ and a ‘js’ folder on that downloaded folder. There are many files under those two folders. If you want to know which file contains what, you can read that in the documentation. Currently, there is a page named ‘content’ under the ‘Getting Started’ section in the documentation where you read about file structure and which files contain what.
+Anyway, we just need one file from the js folder. The name of that file is **bootstrap.bundle.min.js** It has not only all the js files but ‘popper’ is included. From the webpack page of the documentation, you will know that “Bootstrap depends on Popper, which is specified in the peer dependencies property. This means that you will have to make sure to add it to your package.json using npm install @popperjs/core.” But as we are using ‘bootstrap.bundle.min.js’, we will not need to install popper.
+Anyway, copy that ‘bootstrap.bundle.min.js’ and paste that file on your nuxt project’s **static** folder. Then you need to edit your nuxt.config.js to use it.
 ```
 export default {
       
