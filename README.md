@@ -20,12 +20,12 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
-## Way to add SCSS with a newly installed nuxt project.
+## How scss is added in this nuxt project
 
 Check Nuxt, Scss boilerplate's **Readme.md** to know that!
 
 
-## Way to add Bootstrap 5 with a newly installed nuxt project.
+## How Bootstrap 5 is added in this nuxt project
 
 
 #### Installation 
