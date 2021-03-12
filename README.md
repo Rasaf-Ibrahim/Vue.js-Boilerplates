@@ -70,6 +70,3 @@ export default {
 This will not only compile the overridden bulma styles but also add the bootstrap style in the whole nuxt project.
 
 ```
-
-
-
