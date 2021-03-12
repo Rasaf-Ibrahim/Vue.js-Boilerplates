@@ -41,7 +41,8 @@ bulma-start is a tiny npm package that includes the npm dependencies you need to
 Check bulma's official website to know more.
 
 
-#### Adding Bulma and the Customized Bulma
+
+### Adding Bulma and the Customized Bulma
 
 
 At first, create a folder in your nuxt project’s **assests** folder and also create a scss file inside the created folder. Suppose, the folder’s name is bulma and the file name is ‘mystyle.scss’. Now, on this mystyle.scss file, you can override any built-in custom Bulma variables.
