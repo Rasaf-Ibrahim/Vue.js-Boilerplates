@@ -18,6 +18,5 @@
 ### Boilerplate of Nuxt, SCSS & BootstrapVue | Branch Name: 003  <br/>
 [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/003 ) <br/>
 
-### Boilerplate of Nuxt, SCSS & Firebase | Branch Name: 002   <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/002) <br/>
+
 
