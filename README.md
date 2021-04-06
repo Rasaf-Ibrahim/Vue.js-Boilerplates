@@ -1,22 +1,19 @@
-#### "Main branch is empty but there are some other branches in this repositroy. Each branch has a different boilerplate."
+# bazla16day
 
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
+### Compiles and minifies for production
+```
+npm run build
+```
 
-### Boilerplate of Nuxt & SCSS | Branch Name: 001 <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001) <br/>
-
-
-### Boilerplate of Nuxt, SCSS & Bootstrap 5 | Branch Name: 005  <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/005 ) <br/>
-
-
-
-### Boilerplate of Nuxt, SCSS & Bulma | Branch Name: 004  <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/004 ) <br/>
-
-### Boilerplate of Nuxt, SCSS & BootstrapVue | Branch Name: 003  <br/>
-[Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/003 ) <br/>
-
-
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
