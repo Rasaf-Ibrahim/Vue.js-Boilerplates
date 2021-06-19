@@ -7,7 +7,6 @@
 ---
 
 
-
 |      Boilerplate       |                 Branch Link \| (Branch Name)                 |
 | :--------------------: | :----------------------------------------------------------: |
 |       Vue, SCSS        | [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/002) \|(002) |
@@ -22,7 +21,6 @@
 
 
 ---
-
 
 
 |       Boilerplate       |                 Branch Link \| (Branch Name)                 |
