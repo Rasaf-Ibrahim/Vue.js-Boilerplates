@@ -1,6 +1,6 @@
 <template>
-  <div >
-    This is a vue, tailwind Boilerplate with no style at all!
+  <div class="bg-gray-300 text-4xl text-center py-20">
+    This is a Vue, SCSS, Tailwind CSS Boilerplate.
   </div>
 </template>
 
