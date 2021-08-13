@@ -1,74 +1,69 @@
-> #### "Main branch is empty but there are some other branches in this repository. Each branch has a Vue boilerplate."
+# nuxt-tailwind-scss
 
-&nbsp;
-***
-&nbsp;
+## Build Setup
 
+```bash
+# install dependencies
+$ npm install
 
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-> Table of Contents
-> 
-> [🔖 Vue](#vue) 
-> 
-> [🔖 Nuxt](#nuxt) 
+# build for production and launch server
+$ npm run build
+$ npm run start
 
+# generate static project
+$ npm run generate
+```
 
-&nbsp;
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
+## Special Directories
 
-                        
-&nbsp;
-### Vue
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-&nbsp;
+### `assets`
 
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
->  Vue, SCSS 
-> - Branch Name: 002,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/002)
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
+### `components`
 
-&nbsp;
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-> Vue, TailwindCSS
-> - Branch Name: 003,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/003)
+### `layouts`
 
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
-&nbsp;
-
-
-> Vue, SCSS, TailwindCSS
-> - Branch Name: 006,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/006)
-
-
-
-&nbsp;
-### Nuxt
-
-&nbsp;
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
 
->  Nuxt, SCSS 
-> - Branch Name: 001,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/001)
+### `pages`
 
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
 
-&nbsp;
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
+### `plugins`
 
-> Nuxt, TailwindCSS, SCSS
-> - Branch Name: 007,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/007)
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
 
-&nbsp;
+### `static`
 
+This directory contains your static files. Each file inside this directory is mapped to `/`.
 
-> Nuxt, SCSS, Bootstrap 5
-> - Branch Name: 005,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/005)
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
-&nbsp;
+### `store`
 
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-> Nuxt, SCSS, Bulma
-> - Branch Name: 004,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/004)
-
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
