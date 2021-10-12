@@ -1,0 +1,25 @@
+@layer utilities {
+
+/* 90% on mobile and 50% on computer */
+.-max-w-90-50{
+    @apply
+    max-w-90%
+    md:max-w-75%
+    lg:max-w-50%
+    xl:max-w-40%;
+
+}
+
+
+/* 90% on mobile and 60% on computer */
+
+.-max-w-90-60{
+    @apply
+    max-w-90%
+    md:max-w-75%
+    lg:max-w-60%
+    xl:max-w-50%;
+
+}
+
+}

@@ -1,0 +1,38 @@
+@layer utilities {
+
+
+/* title-1 */
+
+.-title-1 {
+    @apply
+    text-[3.75rem] md:text-[3.875rem] lg:text-[4rem] xl:text-[4.125rem] 
+
+    leading-[1.06] lg:leading-[1.055];
+}
+
+/* title-2 */
+
+.-title-2 {
+    @apply
+    text-[3.25rem] md:text-[3.375rem] lg:text-[3.5rem] xl:text-[3.625rem] 
+
+    leading-[1.075] lg:leading-[1.2];
+}
+
+
+/* title-3 */
+
+.-title-3 {
+    @apply
+    text-[2.75rem] md:text-[2.875rem] lg:text-[3rem] xl:text-[3.125rem] 
+
+    leading-[1.14] lg:leading-[1.2];
+}
+
+
+
+
+
+}
+
+

@@ -1,0 +1,51 @@
+/* By default, tailwind has modified some html tag's style. The change are documented in the 'preflight' section of the  https://tailwindcss.com website. In this file, we will modify back the style of some html tags which tailwind modified  in the first place. */
+
+
+@layer base {
+
+
+    /* The following styles are needed if you are using markdown file in your website.  */
+    
+    
+    h1{
+      @apply
+      -h1;
+    }
+    
+    h2{
+      @apply
+      -h2;
+    }
+    
+    h3{
+      @apply
+      -h3;
+    }
+    
+    h4{
+      @apply
+      -h4;
+    }
+    
+    
+    h5{
+      @apply
+      -h5;
+    }
+    
+    
+    h6{
+      @apply
+      -h6;
+    }
+    
+    
+    p{
+      @apply
+      -p;
+    }
+    
+    
+}
+
+

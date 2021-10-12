@@ -1,0 +1,44 @@
+@layer base {
+
+
+    :root {
+
+
+         /* bg-s-t1a1  or, text-s-t1a1 */
+         --surface-type-1-alpha-1:	hsl(0, 0%, 86%);  
+
+         /*bg-s-t1a2 or, text-s-t1a2  */
+         --surface-type-1-alpha-2:	hsl(0, 0%, 90%);
+ 
+         /*bg-s-t1a3  or, text-s-t1a3 */
+         --surface-type-1-alpha-3:	hsl(0, 0%, 94%);
+
+         /*bg-s-t1a4  or, text-s-t1a4 */
+         --surface-type-1-alpha-4:	hsl(0, 0%, 98%);
+
+    }
+
+    .dark {
+
+
+          /* bg-s-t1a1  or, text-s-t1a1 */
+          --surface-type-1-alpha-1:hsl(0, 0%, 8%);  
+      
+
+          /*bg-s-t1a2 or, text-s-t1a2 */
+          --surface-type-1-alpha-2:hsl(0, 0%, 11%); 
+  
+          /*bg-s-t1a3  or, text-s-t1a3 */
+          --surface-type-1-alpha-3:hsl(0, 0%, 14%); 
+ 
+          /*bg-s-t1a4  or, text-s-t1a4 */
+          --surface-type-1-alpha-4:hsl(0, 0%, 17%); 
+ 
+         
+
+    }
+
+}
+
+
+

@@ -1,0 +1,269 @@
+
+:root {
+    --initial-spacing:0.25rem; /* 4px */
+    --increase-spacing: 0.031rem;  /* 0.5px */
+
+
+
+
+    /* 4px */
+
+    --initial-4px:calc(var(--initial-spacing)*1);
+    --increase-4px:calc(var(--increase-spacing)*1);
+
+    --sm-4px:calc(var(--initial-4px) + var(--increase-4px)*0);
+    --md-4px:calc(var(--initial-4px) + var(--increase-4px)*1);
+    --lg-4px:calc(var(--initial-4px) + var(--increase-4px)*2);
+    --xl-4px:calc(var(--initial-4px) + var(--increase-4px)*3);
+    --twoXl-4px:calc(var(--initial-4px) + var(--increase-4px)*4);
+
+
+
+    /* 8px */
+
+    --initial-8px:calc(var(--initial-spacing)*2);
+    --increase-8px:calc(var(--increase-spacing)*2);
+
+    --sm-8px:calc(var(--initial-8px) + var(--increase-8px)*0);
+    --md-8px:calc(var(--initial-8px) + var(--increase-8px)*1);
+    --lg-8px:calc(var(--initial-8px) + var(--increase-8px)*2);
+    --xl-8px:calc(var(--initial-8px) + var(--increase-8px)*3);
+    --twoXl-8px:calc(var(--initial-8px) + var(--increase-8px)*4);
+
+
+
+    /* 12px */
+
+    --initial-12px:calc(var(--initial-spacing)*3);
+    --increase-12px:calc(var(--increase-spacing)*3);
+
+    --sm-12px:calc(var(--initial-12px) + var(--increase-12px)*0);
+    --md-12px:calc(var(--initial-12px) + var(--increase-12px)*1);
+    --lg-12px:calc(var(--initial-12px) + var(--increase-12px)*2);
+    --xl-12px:calc(var(--initial-12px) + var(--increase-12px)*3);
+    --twoXl-12px:calc(var(--initial-12px) + var(--increase-12px)*4);
+
+
+
+    /* 16px */
+
+    --initial-16px:calc(var(--initial-spacing)*4);
+    --increase-16px:calc(var(--increase-spacing)*4);
+
+    --sm-16px:calc(var(--initial-16px) + var(--increase-16px)*0);
+    --md-16px:calc(var(--initial-16px) + var(--increase-16px)*1);
+    --lg-16px:calc(var(--initial-16px) + var(--increase-16px)*2);
+    --xl-16px:calc(var(--initial-16px) + var(--increase-16px)*3);
+    --twoXl-16px:calc(var(--initial-16px) + var(--increase-16px)*4);
+
+
+
+    /* 20px */
+
+    --initial-20px:calc(var(--initial-spacing)*5);
+    --increase-20px:calc(var(--increase-spacing)*5);
+
+    --sm-20px:calc(var(--initial-20px) + var(--increase-20px)*0);
+    --md-20px:calc(var(--initial-20px) + var(--increase-20px)*1);
+    --lg-20px:calc(var(--initial-20px) + var(--increase-20px)*2);
+    --xl-20px:calc(var(--initial-20px) + var(--increase-20px)*3);
+    --twoXl-20px:calc(var(--initial-20px) + var(--increase-20px)*4);
+
+
+
+    /* 24px */
+
+    --initial-24px:calc(var(--initial-spacing)*6);
+    --increase-24px:calc(var(--increase-spacing)*6);
+
+    --sm-24px:calc(var(--initial-24px) + var(--increase-24px)*0);
+    --md-24px:calc(var(--initial-24px) + var(--increase-24px)*1);
+    --lg-24px:calc(var(--initial-24px) + var(--increase-24px)*2);
+    --xl-24px:calc(var(--initial-24px) + var(--increase-24px)*3);
+    --twoXl-24px:calc(var(--initial-24px) + var(--increase-24px)*4);
+
+
+
+    /* 28px */
+
+    --initial-28px:calc(var(--initial-spacing)*7);
+    --increase-28px:calc(var(--increase-spacing)*7);
+
+    --sm-28px:calc(var(--initial-28px) + var(--increase-28px)*0);
+    --md-28px:calc(var(--initial-28px) + var(--increase-28px)*1);
+    --lg-28px:calc(var(--initial-28px) + var(--increase-28px)*2);
+    --xl-28px:calc(var(--initial-28px) + var(--increase-28px)*3);
+    --twoXl-28px:calc(var(--initial-28px) + var(--increase-28px)*4);
+
+
+
+    /* 32px */
+
+    --initial-32px:calc(var(--initial-spacing)*8);
+    --increase-32px:calc(var(--increase-spacing)*8);
+
+    --sm-32px:calc(var(--initial-32px) + var(--increase-32px)*0);
+    --md-32px:calc(var(--initial-32px) + var(--increase-32px)*1);
+    --lg-32px:calc(var(--initial-32px) + var(--increase-32px)*2);
+    --xl-32px:calc(var(--initial-32px) + var(--increase-32px)*3);
+    --twoXl-32px:calc(var(--initial-32px) + var(--increase-32px)*4);
+
+
+    /* 36px */
+
+    --initial-36px:calc(var(--initial-spacing)*9);
+    --increase-36px:calc(var(--increase-spacing)*9);
+
+    --sm-36px:calc(var(--initial-36px) + var(--increase-36px)*0);
+    --md-36px:calc(var(--initial-36px) + var(--increase-36px)*1);
+    --lg-36px:calc(var(--initial-36px) + var(--increase-36px)*2);
+    --xl-36px:calc(var(--initial-36px) + var(--increase-36px)*3);
+    --twoXl-36px:calc(var(--initial-36px) + var(--increase-36px)*4);
+
+
+    /* 40px */
+
+    --initial-40px:calc(var(--initial-spacing)*10);
+    --increase-40px:calc(var(--increase-spacing)*10);
+
+    --sm-40px:calc(var(--initial-40px) + var(--increase-40px)*0);
+    --md-40px:calc(var(--initial-40px) + var(--increase-40px)*1);
+    --lg-40px:calc(var(--initial-40px) + var(--increase-40px)*2);
+    --xl-40px:calc(var(--initial-40px) + var(--increase-40px)*3);
+    --twoXl-40px:calc(var(--initial-40px) + var(--increase-40px)*4);
+
+
+    /* 44px */
+
+    --initial-44px:calc(var(--initial-spacing)*11);
+    --increase-44px:calc(var(--increase-spacing)*11);
+
+    --sm-44px:calc(var(--initial-44px) + var(--increase-44px)*0);
+    --md-44px:calc(var(--initial-44px) + var(--increase-44px)*1);
+    --lg-44px:calc(var(--initial-44px) + var(--increase-44px)*2);
+    --xl-44px:calc(var(--initial-44px) + var(--increase-44px)*3);
+    --twoXl-44px:calc(var(--initial-44px) + var(--increase-44px)*4);
+
+
+
+
+    /* 48px */
+
+    --initial-48px:calc(var(--initial-spacing)*12);
+    --increase-48px:calc(var(--increase-spacing)*12);
+
+    --sm-48px:calc(var(--initial-48px) + var(--increase-48px)*0);
+    --md-48px:calc(var(--initial-48px) + var(--increase-48px)*1);
+    --lg-48px:calc(var(--initial-48px) + var(--increase-48px)*2);
+    --xl-48px:calc(var(--initial-48px) + var(--increase-48px)*3);
+    --twoXl-48px:calc(var(--initial-48px) + var(--increase-48px)*4);
+
+
+
+    /* 52px */
+
+    --initial-52px:calc(var(--initial-spacing)*13);
+    --increase-52px:calc(var(--increase-spacing)*13);
+
+    --sm-52px:calc(var(--initial-52px) + var(--increase-52px)*0);
+    --md-52px:calc(var(--initial-52px) + var(--increase-52px)*1);
+    --lg-52px:calc(var(--initial-52px) + var(--increase-52px)*2);
+    --xl-52px:calc(var(--initial-52px) + var(--increase-52px)*3);
+    --twoXl-52px:calc(var(--initial-52px) + var(--increase-52px)*4);
+
+
+
+    /* 56px */
+
+    --initial-56px:calc(var(--initial-spacing)*14);
+    --increase-56px:calc(var(--increase-spacing)*14);
+
+    --sm-56px:calc(var(--initial-56px) + var(--increase-56px)*0);
+    --md-56px:calc(var(--initial-56px) + var(--increase-56px)*1);
+    --lg-56px:calc(var(--initial-56px) + var(--increase-56px)*2);
+    --xl-56px:calc(var(--initial-56px) + var(--increase-56px)*3);
+    --twoXl-56px:calc(var(--initial-56px) + var(--increase-56px)*4);
+
+
+
+    /* 60px */
+
+    --initial-60px:calc(var(--initial-spacing)*15);
+    --increase-60px:calc(var(--increase-spacing)*15);
+
+    --sm-60px:calc(var(--initial-60px) + var(--increase-60px)*0);
+    --md-60px:calc(var(--initial-60px) + var(--increase-60px)*1);
+    --lg-60px:calc(var(--initial-60px) + var(--increase-60px)*2);
+    --xl-60px:calc(var(--initial-60px) + var(--increase-60px)*3);
+    --twoXl-60px:calc(var(--initial-60px) + var(--increase-60px)*4);
+
+
+
+
+    /* 64px */
+
+    --initial-64px:calc(var(--initial-spacing)*16);
+    --increase-64px:calc(var(--increase-spacing)*16);
+
+    --sm-64px:calc(var(--initial-64px) + var(--increase-64px)*0);
+    --md-64px:calc(var(--initial-64px) + var(--increase-64px)*1);
+    --lg-64px:calc(var(--initial-64px) + var(--increase-64px)*2);
+    --xl-64px:calc(var(--initial-64px) + var(--increase-64px)*3);
+    --twoXl-64px:calc(var(--initial-64px) + var(--increase-64px)*4);
+
+
+
+    /* 68px */
+
+    --initial-68px:calc(var(--initial-spacing)*17);
+    --increase-68px:calc(var(--increase-spacing)*17);
+
+    --sm-68px:calc(var(--initial-68px) + var(--increase-68px)*0);
+    --md-68px:calc(var(--initial-68px) + var(--increase-68px)*1);
+    --lg-68px:calc(var(--initial-68px) + var(--increase-68px)*2);
+    --xl-68px:calc(var(--initial-68px) + var(--increase-68px)*3);
+    --twoXl-68px:calc(var(--initial-68px) + var(--increase-68px)*4);
+
+
+
+    /* 72px */
+
+    --initial-72px:calc(var(--initial-spacing)*18);
+    --increase-72px:calc(var(--increase-spacing)*18);
+
+    --sm-72px:calc(var(--initial-72px) + var(--increase-72px)*0);
+    --md-72px:calc(var(--initial-72px) + var(--increase-72px)*1);
+    --lg-72px:calc(var(--initial-72px) + var(--increase-72px)*2);
+    --xl-72px:calc(var(--initial-72px) + var(--increase-72px)*3);
+    --twoXl-72px:calc(var(--initial-72px) + var(--increase-72px)*4);
+
+
+
+    /* 76px */
+
+    --initial-76px:calc(var(--initial-spacing)*19);
+    --increase-76px:calc(var(--increase-spacing)*19);
+
+    --sm-76px:calc(var(--initial-76px) + var(--increase-76px)*0);
+    --md-76px:calc(var(--initial-76px) + var(--increase-76px)*1);
+    --lg-76px:calc(var(--initial-76px) + var(--increase-76px)*2);
+    --xl-76px:calc(var(--initial-76px) + var(--increase-76px)*3);
+    --twoXl-76px:calc(var(--initial-76px) + var(--increase-76px)*4);
+
+
+
+    /* 80px */
+
+    --initial-80px:calc(var(--initial-spacing)*20);
+    --increase-80px:calc(var(--increase-spacing)*20);
+
+    --sm-80px:calc(var(--initial-80px) + var(--increase-80px)*0);
+    --md-80px:calc(var(--initial-80px) + var(--increase-80px)*1);
+    --lg-80px:calc(var(--initial-80px) + var(--increase-80px)*2);
+    --xl-80px:calc(var(--initial-80px) + var(--increase-80px)*3);
+    --twoXl-80px:calc(var(--initial-80px) + var(--increase-80px)*4);
+
+
+}
+
+

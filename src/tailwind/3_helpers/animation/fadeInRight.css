@@ -1,0 +1,26 @@
+@layer utilities {
+
+.-fade-in-right {
+    animation: fadeInRight 2s ease-out;
+
+}
+
+.-fade-out-right {
+    animation: fadeInRight 2s ease-out reverse;
+
+}
+
+
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(100px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+}

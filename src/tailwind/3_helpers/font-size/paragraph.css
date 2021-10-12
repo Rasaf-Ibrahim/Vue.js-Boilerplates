@@ -1,0 +1,13 @@
+@layer utilities {
+
+ .-p{
+
+    @apply
+    text-[1rem] md:text-[1.09375rem] lg:text-[1.1875rem] xl:text-[1.28125rem] 
+
+    leading-[1.5] lg:leading-[1.4];
+
+ }
+
+
+}

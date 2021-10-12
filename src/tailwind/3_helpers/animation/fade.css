@@ -1,0 +1,23 @@
+@layer utilities {
+
+.-fade-in {
+    animation: fade ease 3s;
+  }
+    
+.-fade-out {
+  animation: fade ease 3s reverse;
+}
+
+
+    
+    @keyframes fade{
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+
+
+  }

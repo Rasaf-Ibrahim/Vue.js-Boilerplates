@@ -1,0 +1,60 @@
+
+@layer base {
+
+
+    :root {
+
+        /*bg-green-l1-a1 or, text-green-l1-a1 */
+       --green-layer-1-alpha-1: hsla(160,85%,40%,1); 
+
+       /*bg-green-l1-a2 or, text-green-l1-a2 */
+       --green-layer-1-alpha-2: hsla(160,85%,40%,0.9); 
+
+       /*bg-green-l1-a2 or, text-green-l1-a2 */
+       --green-layer-1-alpha-3: hsla(160,85%,40%,0.8); 
+
+
+
+
+     
+      /*bg-green-l2-a1 or, text-green-l2-a1 */
+      --green-layer-2-alpha-1: hsla(160,85%,70%,1); 
+          
+      /*bg-green-l2-a2 or, text-green-l2-a2 */
+      --green-layer-2-alpha-2: hsla(160,85%,70%,0.9); 
+    
+      /*bg-green-l2-a2 or, text-green-l2-a2 */
+      --green-layer-2-alpha-3: hsla(160,85%,70%,0.8); 
+
+
+
+    }
+
+
+
+
+    .dark {
+
+        /*bg-green-l1-a1 or, text-green-l1-a1 */
+       --green-layer-1-alpha-1: hsla(160,85%,70%,1); 
+ 
+       /*bg-green-l1-a2 or, text-green-l1-a2 */
+       --green-layer-1-alpha-2: hsla(160,85%,70%,0.9); 
+
+       /*bg-green-l1-a2 or, text-green-l1-a2 */
+       --green-layer-1-alpha-3: hsla(160,85%,70%,0.8); 
+
+
+
+       /*bg-green-l2-a1 or, text-green-l2-a1 */
+       --green-layer-2-alpha-1: hsla(160,85%,40%,1);
+      
+       /*bg-green-l2-a2 or, text-green-l2-a2 */
+       --green-layer-2-alpha-2: hsla(160,85%,40%,0.9); 
+
+       /*bg-green-l2-a2 or, text-green-l2-a2 */
+       --green-layer-2-alpha-3: hsla(160,85%,40%,0.8); 
+        
+    }
+
+}

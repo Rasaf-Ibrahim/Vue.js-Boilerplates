@@ -1,0 +1,36 @@
+
+@layer utilities {
+
+
+.-post-img-wrapper-sm {
+
+    @apply
+    max-w-[20rem] md:max-w-[24rem] lg:md:max-w-[28rem] xl:md:max-w-[32rem]
+    mx-auto
+    rounded-xl shadow-lg
+ 
+}
+
+.-post-img-wrapper-md {
+
+    @apply
+    max-w-[20rem] md:max-w-[25rem] lg:md:max-w-[29rem] xl:md:max-w-[33rem]
+    mx-auto
+    rounded-xl shadow-lg
+ 
+}
+    
+    
+.-post-img-wrapper-lg {
+
+    @apply
+    max-w-[20rem] md:max-w-[26rem] lg:md:max-w-[30rem] xl:md:max-w-[34rem]
+    mx-auto
+    rounded-xl shadow-lg
+    
+    
+}
+    
+
+
+}

@@ -1,0 +1,29 @@
+@layer utilities {
+
+
+/* The following class's max-width is 20rem.
+You can make more class like this just by changing the max-weight size. */
+
+.-card-1{
+    @apply
+    max-w-[20rem]
+    rounded-xl shadow-lg 
+}
+
+
+
+.-card-2{
+    @apply
+    max-w-[20rem] md:max-w-[22rem] lg:md:max-w-[24rem]
+    rounded-xl shadow-lg; 
+}
+
+
+.-blog-1{
+    @apply
+    max-w-[20rem] md:max-w-[24rem] lg:md:max-w-[28rem] xl:md:max-w-[32rem]
+    rounded-xl shadow-lg;
+}
+
+
+}

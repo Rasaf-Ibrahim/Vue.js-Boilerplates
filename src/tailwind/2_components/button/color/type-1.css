@@ -1,0 +1,52 @@
+@layer utilities {
+
+.-btn-color-t1l1 {
+ 
+    @apply
+
+    bg-b-t1l1a1 text-l2-a1
+    hover:bg-b-t1l1a2;
+
+}
+
+
+.-btn-color-t1l2 {
+ 
+   @apply
+
+   bg-b-t1l2a1 text-l1-a1
+   hover:bg-b-t1l2a2;
+
+}
+
+
+
+
+
+/* border */
+
+
+.-btn-border-color-t1l1 {
+
+   @apply
+
+   bg-transparent text-b-t1l1a1
+   border border-brand-t1l1a1
+   hover:bg-b-t1l1a1 hover:text-l2-a1;
+
+}
+
+
+
+.-btn-border-color-t1l2 {
+
+   @apply
+
+   bg-transparent text-b-t1l2a1
+   border border-brand-t1l2a1
+   hover:bg-b-t1l2a1 hover:text-l1-a1;
+
+}
+
+
+}

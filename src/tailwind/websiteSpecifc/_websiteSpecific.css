@@ -1,0 +1,17 @@
+/* Only import the files that are related to this project */
+
+
+/* Preflight (HTML Tags Style */
+@import './preflight/_preflight.css';
+
+
+/* Prism styles  markdown file's code. But this website doesn't contain any markdown file. So, at first, we have written javascript code in a markdown file and then we have converted that markdown into html. And from that html file, we have copied the code portion and pasted here.*/
+
+/* @import './Library/prism/tomorrowNight.css'; */
+
+
+
+
+/* styles which are only for this website */
+@import './thisWebsite/_thisWebsite.css';
+

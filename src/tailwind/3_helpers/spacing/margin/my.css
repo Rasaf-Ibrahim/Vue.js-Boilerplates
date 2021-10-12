@@ -1,0 +1,228 @@
+
+@layer utilities {
+
+    ._my-4px {
+
+        @apply
+        my-[var(--sm-4px)]
+        md:my-[var(--md-4px)]
+        lg:my-[var(--lg-4px)]
+        xl:my-[var(--xl-4px)]
+        2xl:my-[var(--twoXl-4px)]
+    }
+
+
+    ._my-8px {
+
+        @apply
+        my-[var(--sm-8px)]
+        md:my-[var(--md-8px)]
+        lg:my-[var(--lg-8px)]
+        xl:my-[var(--xl-8px)]
+        2xl:my-[var(--twoXl-8px)]
+    }
+    
+
+    ._my-12px {
+    
+        @apply
+        my-[var(--sm-12px)]
+        md:my-[var(--md-12px)]
+        lg:my-[var(--lg-12px)]
+        xl:my-[var(--xl-12px)]
+        2xl:my-[var(--twoXl-12px)]
+    }
+
+
+    ._my-16px {
+
+        @apply
+        my-[var(--sm-16px)]
+        md:my-[var(--md-16px)]
+        lg:my-[var(--lg-16px)]
+        xl:my-[var(--xl-16px)]
+        2xl:my-[var(--twoXl-16px)]
+    }
+
+
+    ._my-20px {
+
+        @apply
+        my-[var(--sm-20px)]
+        md:my-[var(--md-20px)]
+        lg:my-[var(--lg-20px)]
+        xl:my-[var(--xl-20px)]
+        2xl:my-[var(--twoXl-20px)]
+    }
+    
+
+
+    ._my-24px {
+
+        @apply
+        my-[var(--sm-24px)]
+        md:my-[var(--md-24px)]
+        lg:my-[var(--lg-24px)]
+        xl:my-[var(--xl-24px)]
+        2xl:my-[var(--twoXl-24px)]
+    }
+
+
+
+    ._my-28px {
+
+        @apply
+        my-[var(--sm-28px)]
+        md:my-[var(--md-28px)]
+        lg:my-[var(--lg-28px)]
+        xl:my-[var(--xl-28px)]
+        2xl:my-[var(--twoXl-28px)]
+    }
+
+
+    ._my-32px {
+
+        @apply
+        my-[var(--sm-32px)]
+        md:my-[var(--md-32px)]
+        lg:my-[var(--lg-32px)]
+        xl:my-[var(--xl-32px)]
+        2xl:my-[var(--twoXl-32px)]
+    }
+
+    
+    ._my-36px {
+
+        @apply
+        my-[var(--sm-36px)]
+        md:my-[var(--md-36px)]
+        lg:my-[var(--lg-36px)]
+        xl:my-[var(--xl-36px)]
+        2xl:my-[var(--twoXl-36px)]
+    }
+
+    
+
+    ._my-40px {
+
+        @apply
+        my-[var(--sm-40px)]
+        md:my-[var(--md-40px)]
+        lg:my-[var(--lg-40px)]
+        xl:my-[var(--xl-40px)]
+        2xl:my-[var(--twoXl-40px)]
+    }
+
+    
+
+    ._my-44px {
+
+        @apply
+        my-[var(--sm-44px)]
+        md:my-[var(--md-44px)]
+        lg:my-[var(--lg-44px)]
+        xl:my-[var(--xl-44px)]
+        2xl:my-[var(--twoXl-44px)]
+    }
+
+    
+
+    ._my-48px {
+
+        @apply
+        my-[var(--sm-48px)]
+        md:my-[var(--md-48px)]
+        lg:my-[var(--lg-48px)]
+        xl:my-[var(--xl-48px)]
+        2xl:my-[var(--twoXl-48px)]
+    }
+
+
+    ._my-52px {
+
+        @apply
+        my-[var(--sm-52px)]
+        md:my-[var(--md-52px)]
+        lg:my-[var(--lg-52px)]
+        xl:my-[var(--xl-52px)]
+        2xl:my-[var(--twoXl-52px)]
+    }
+
+
+    ._my-56px {
+
+        @apply
+        my-[var(--sm-56px)]
+        md:my-[var(--md-56px)]
+        lg:my-[var(--lg-56px)]
+        xl:my-[var(--xl-56px)]
+        2xl:my-[var(--twoXl-56px)]
+    }
+    
+
+    ._my-60px {
+
+        @apply
+        my-[var(--sm-60px)]
+        md:my-[var(--md-60px)]
+        lg:my-[var(--lg-60px)]
+        xl:my-[var(--xl-60px)]
+        2xl:my-[var(--twoXl-60px)]
+    }
+
+
+    ._my-64px {
+
+        @apply
+        my-[var(--sm-64px)]
+        md:my-[var(--md-64px)]
+        lg:my-[var(--lg-64px)]
+        xl:my-[var(--xl-64px)]
+        2xl:my-[var(--twoXl-64px)]
+    }
+
+
+    ._my-68px {
+
+        @apply
+        my-[var(--sm-68px)]
+        md:my-[var(--md-68px)]
+        lg:my-[var(--lg-68px)]
+        xl:my-[var(--xl-68px)]
+        2xl:my-[var(--twoXl-68px)]
+    }
+
+    
+    ._my-72px {
+
+        @apply
+        my-[var(--sm-72px)]
+        md:my-[var(--md-72px)]
+        lg:my-[var(--lg-72px)]
+        xl:my-[var(--xl-72px)]
+        2xl:my-[var(--twoXl-72px)]
+    }
+
+
+    ._my-76px {
+
+        @apply
+        my-[var(--sm-76px)]
+        md:my-[var(--md-76px)]
+        lg:my-[var(--lg-76px)]
+        xl:my-[var(--xl-76px)]
+        2xl:my-[var(--twoXl-76px)]
+    }
+
+    
+    ._my-80px {
+
+        @apply
+        my-[var(--sm-80px)]
+        md:my-[var(--md-80px)]
+        lg:my-[var(--lg-80px)]
+        xl:my-[var(--xl-80px)]
+        2xl:my-[var(--twoXl-80px)]
+    }
+
+}

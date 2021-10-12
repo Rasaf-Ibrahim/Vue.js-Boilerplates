@@ -1,0 +1,10 @@
+@layer utilities {
+
+
+.-card-img-1-3{
+    @apply
+    w-full h-[14rem] 
+    object-cover;
+}
+
+}

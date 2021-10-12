@@ -1,0 +1,88 @@
+
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Lobster+Two&family=Kaushan+Script&family=Yatra+One&family=Train+One&family=Indie+Flower&family=Atma&display=swap');
+
+
+
+@import './1_theme/_theme.css';
+
+@import './2_components/_components.css';
+
+@import './3_helpers/_helpers.css';
+
+@import './websiteSpecifc/_websiteSpecific.css';
+
+
+@import './4_old/_old.css';
+
+
+
+
+
+/* 
+
+Importing is possible with the help of  'postcss-import' plugin. Install 'postcss-import' plugin and import that at the top  in the postcss.config.js file. 
+
+
+If you want to write nested CSS like SASS, then you need to install 'tailwindcss/nesting' plugin.
+
+
+
+Paste the following in the postcss.config.js file:
+
+module.exports = {
+  plugins: [
+    require('postcss-import'),
+    require('tailwindcss/nesting'),
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ]
+}
+
+
+  
+*/
+
+
+
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

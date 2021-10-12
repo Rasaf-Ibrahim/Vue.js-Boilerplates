@@ -1,0 +1,28 @@
+@import './title.css';
+@import './heading.css';
+@import './paragraph.css';
+
+
+/*
+font-size of paragraph is larger than h5 & h6 but smaller than h4,h3,h2,h1.
+
+font-size of title-1, title-2 & title-3 is larger than any heading.
+*/
+
+
+
+
+
+
+ /* Necessity of Responsive Typography 
+ 
+ https:/*ia.net/topics/responsive-typography-the-basics
+ 
+ */
+
+ /* Accroding to mdn, it is better to choose unit less value for line-height 
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#prefer_unitless_numbers_for_line-height_values
+
+
+*/

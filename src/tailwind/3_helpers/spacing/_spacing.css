@@ -1,0 +1,22 @@
+/* Note: On other section's custom class name, we are using a hyphen as the first character. But in tailwind, hyphen before any spacing class means a negative value, that's why we are using underscore at the start of the class name instead of a hyphen. */
+
+
+
+
+/* Global Variable */
+@import './__variable.css';
+
+
+/* margin */
+@import './margin/_margin.css';
+
+/* padding */
+@import './padding/_padding.css';
+
+
+/* gap (flex & grid) */
+@import './gap/_gap.css';
+
+
+/* space (between any block element) */
+@import './space/_space.css';

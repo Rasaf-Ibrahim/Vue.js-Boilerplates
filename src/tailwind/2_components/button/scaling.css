@@ -1,0 +1,19 @@
+@layer utilities {
+
+/* Scale up and down on active state */
+
+.-btn-scale-down{
+    @apply
+    transform
+    active:scale-95;
+    
+}
+
+.-btn-scale-up{
+    @apply
+    transform
+    active:scale-105;
+    
+}
+
+}

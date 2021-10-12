@@ -1,0 +1,38 @@
+@layer utilities {
+
+/* Main class */
+
+    .-btn{
+        @apply 
+        text-center
+        cursor-pointer
+        rounded
+        -shadow-sm
+        outline-none focus:outline-none
+    
+        transition
+        ease-out
+        duration-300;
+    }
+
+
+
+   /* Note (uppercase):
+
+   Don't use uppercase class here. In the html <button> tag, use uppercase class or write the button's name in uppercase. (Bootstrap is also not using  uppercase as a default option!)
+   */
+
+
+   /* Note (font weight):
+
+   Not using any font-weight class (Bootstrap is also not using  uppercase as a default option!)
+   */
+
+
+
+}
+
+
+
+
+

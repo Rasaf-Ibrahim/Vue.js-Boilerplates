@@ -1,0 +1,227 @@
+@layer utilities {
+
+    ._gap-4px {
+
+        @apply
+        gap-[var(--sm-4px)]
+        md:gap-[var(--md-4px)]
+        lg:gap-[var(--lg-4px)]
+        xl:gap-[var(--xl-4px)]
+        2xl:gap-[var(--twoXl-4px)]
+    }
+
+
+    ._gap-8px {
+
+        @apply
+        gap-[var(--sm-8px)]
+        md:gap-[var(--md-8px)]
+        lg:gap-[var(--lg-8px)]
+        xl:gap-[var(--xl-8px)]
+        2xl:gap-[var(--twoXl-8px)]
+    }
+    
+
+    ._gap-12px {
+    
+        @apply
+        gap-[var(--sm-12px)]
+        md:gap-[var(--md-12px)]
+        lg:gap-[var(--lg-12px)]
+        xl:gap-[var(--xl-12px)]
+        2xl:gap-[var(--twoXl-12px)]
+    }
+
+
+    ._gap-16px {
+
+        @apply
+        gap-[var(--sm-16px)]
+        md:gap-[var(--md-16px)]
+        lg:gap-[var(--lg-16px)]
+        xl:gap-[var(--xl-16px)]
+        2xl:gap-[var(--twoXl-16px)]
+    }
+
+
+    ._gap-20px {
+
+        @apply
+        gap-[var(--sm-20px)]
+        md:gap-[var(--md-20px)]
+        lg:gap-[var(--lg-20px)]
+        xl:gap-[var(--xl-20px)]
+        2xl:gap-[var(--twoXl-20px)]
+    }
+    
+
+
+    ._gap-24px {
+
+        @apply
+        gap-[var(--sm-24px)]
+        md:gap-[var(--md-24px)]
+        lg:gap-[var(--lg-24px)]
+        xl:gap-[var(--xl-24px)]
+        2xl:gap-[var(--twoXl-24px)]
+    }
+
+
+
+    ._gap-28px {
+
+        @apply
+        gap-[var(--sm-28px)]
+        md:gap-[var(--md-28px)]
+        lg:gap-[var(--lg-28px)]
+        xl:gap-[var(--xl-28px)]
+        2xl:gap-[var(--twoXl-28px)]
+    }
+
+
+    ._gap-32px {
+
+        @apply
+        gap-[var(--sm-32px)]
+        md:gap-[var(--md-32px)]
+        lg:gap-[var(--lg-32px)]
+        xl:gap-[var(--xl-32px)]
+        2xl:gap-[var(--twoXl-32px)]
+    }
+
+    
+    ._gap-36px {
+
+        @apply
+        gap-[var(--sm-36px)]
+        md:gap-[var(--md-36px)]
+        lg:gap-[var(--lg-36px)]
+        xl:gap-[var(--xl-36px)]
+        2xl:gap-[var(--twoXl-36px)]
+    }
+
+    
+
+    ._gap-40px {
+
+        @apply
+        gap-[var(--sm-40px)]
+        md:gap-[var(--md-40px)]
+        lg:gap-[var(--lg-40px)]
+        xl:gap-[var(--xl-40px)]
+        2xl:gap-[var(--twoXl-40px)]
+    }
+
+    
+
+    ._gap-44px {
+
+        @apply
+        gap-[var(--sm-44px)]
+        md:gap-[var(--md-44px)]
+        lg:gap-[var(--lg-44px)]
+        xl:gap-[var(--xl-44px)]
+        2xl:gap-[var(--twoXl-44px)]
+    }
+
+    
+
+    ._gap-48px {
+
+        @apply
+        gap-[var(--sm-48px)]
+        md:gap-[var(--md-48px)]
+        lg:gap-[var(--lg-48px)]
+        xl:gap-[var(--xl-48px)]
+        2xl:gap-[var(--twoXl-48px)]
+    }
+
+
+    ._gap-52px {
+
+        @apply
+        gap-[var(--sm-52px)]
+        md:gap-[var(--md-52px)]
+        lg:gap-[var(--lg-52px)]
+        xl:gap-[var(--xl-52px)]
+        2xl:gap-[var(--twoXl-52px)]
+    }
+
+
+    ._gap-56px {
+
+        @apply
+        gap-[var(--sm-56px)]
+        md:gap-[var(--md-56px)]
+        lg:gap-[var(--lg-56px)]
+        xl:gap-[var(--xl-56px)]
+        2xl:gap-[var(--twoXl-56px)]
+    }
+    
+
+    ._gap-60px {
+
+        @apply
+        gap-[var(--sm-60px)]
+        md:gap-[var(--md-60px)]
+        lg:gap-[var(--lg-60px)]
+        xl:gap-[var(--xl-60px)]
+        2xl:gap-[var(--twoXl-60px)]
+    }
+
+
+    ._gap-64px {
+
+        @apply
+        gap-[var(--sm-64px)]
+        md:gap-[var(--md-64px)]
+        lg:gap-[var(--lg-64px)]
+        xl:gap-[var(--xl-64px)]
+        2xl:gap-[var(--twoXl-64px)]
+    }
+
+
+    ._gap-68px {
+
+        @apply
+        gap-[var(--sm-68px)]
+        md:gap-[var(--md-68px)]
+        lg:gap-[var(--lg-68px)]
+        xl:gap-[var(--xl-68px)]
+        2xl:gap-[var(--twoXl-68px)]
+    }
+
+    
+    ._gap-72px {
+
+        @apply
+        gap-[var(--sm-72px)]
+        md:gap-[var(--md-72px)]
+        lg:gap-[var(--lg-72px)]
+        xl:gap-[var(--xl-72px)]
+        2xl:gap-[var(--twoXl-72px)]
+    }
+
+
+    ._gap-76px {
+
+        @apply
+        gap-[var(--sm-76px)]
+        md:gap-[var(--md-76px)]
+        lg:gap-[var(--lg-76px)]
+        xl:gap-[var(--xl-76px)]
+        2xl:gap-[var(--twoXl-76px)]
+    }
+
+    
+    ._gap-80px {
+
+        @apply
+        gap-[var(--sm-80px)]
+        md:gap-[var(--md-80px)]
+        lg:gap-[var(--lg-80px)]
+        xl:gap-[var(--xl-80px)]
+        2xl:gap-[var(--twoXl-80px)]
+    }
+
+}

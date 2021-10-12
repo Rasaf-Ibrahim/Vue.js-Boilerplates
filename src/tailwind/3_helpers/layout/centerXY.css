@@ -1,0 +1,41 @@
+@layer utilities {
+
+    @variants responsive {
+    
+.-centerXY{
+    
+ @apply  fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+
+}
+
+    }
+}
+
+
+
+
+
+/* 
+
+
+*** Same code with CSS  : 
+ 
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+***Code Explanation: 
+
+The reason why transform: translate(-50%, -50%) is required is because you want the center of the element to line up with the center of its parent. In simple terms, it can be boiled down to translateX(-50%) translateY(-50%),which means:
+
+- move me leftwards by 50% of my width, along the x-axis, and
+- move me upwards by 50% of my height, along the y-axis
+
+This effectively moves the center of the element to its original top left corner. Remember that when you set left: 50%; top 50% on the element, you are moving its top left corner to the center of its parent (which means it is not visually centered at all). By moving the element back leftwards and upwards by half of its width and height respectively, you sure that its center now aligns with the parent's center, making it visually horizontally + vertically centered.
+ 
+*/
+
+
+

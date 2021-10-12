@@ -1,0 +1,33 @@
+
+@layer utilities {
+
+    
+    .-post-img-sm {
+        @apply
+        w-full h-[14rem] md:h-[16rem] 
+        object-cover;
+    
+    }
+    
+
+    .-post-img-md {
+        @apply
+        w-full h-[14rem] md:h-[17rem] 
+        object-cover;
+    
+    }
+    
+    .-post-img-lg {
+
+        @apply
+        w-full h-[14rem] md:h-[18rem] 
+        object-cover;
+    
+        
+    }
+    
+    
+        
+        
+        
+}

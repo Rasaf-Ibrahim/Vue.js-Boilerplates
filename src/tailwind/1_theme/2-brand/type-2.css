@@ -1,0 +1,62 @@
+
+@layer base {
+
+
+    :root {
+ 
+        /* bg-b-t2l1a1  or, text-b-t2l1a1 */
+        --brand-type-2-layer-1-alpha-1:hsl(70,32%,30%);
+
+        /*bg-b-t2l1a2 or, text-b-t2l1a2  */
+        --brand-type-2-layer-1-alpha-2:hsl(70,32%,40%);
+
+        /*bg-b-t2l1a3  or, text-b-t2l1a3 */
+        --brand-type-2-layer-1-alpha-3:hsl(70,32%,50%);
+
+
+
+        /* bg-b-t2l2a1  or, text-b-t2l2a1*/
+       --brand-type-2-layer-2-alpha-1:hsl(70,32%,80%);
+
+       /*bg-b-t2l2a2 or, text-b-t2l2a2 */
+       --brand-type-2-layer-2-alpha-2:hsl(70,32%,70%);
+
+       /*bg-b-t2l2a3  or, text-b-t2l2a3 */
+       --brand-type-2-layer-2-alpha-3:hsl(70,32%,60%);
+
+
+    }
+
+
+
+
+
+    .dark {
+         
+       /* bg-b-t2l1a1  or, text-b-t2l1a1 */
+       --brand-type-2-layer-1-alpha-1:hsl(70,32%,80%);
+
+       /*bg-b-t2l1a2 or, text-b-t2l1a2 */ 
+       --brand-type-2-layer-1-alpha-2:hsl(70,32%,70%);
+
+       /*bg-b-t2l1a3  or, text-b-t2l1a3 */
+       --brand-type-2-layer-1-alpha-3:hsl(70,32%,60%);
+
+
+
+
+      /* bg-b-t2l2a1  or, text-b-t2l2a1 */
+      --brand-type-2-layer-2-alpha-1:hsl(70,32%,30%);
+
+      /*bg-b-t2l2a2 or, text-b-t2l2a2  */ 
+      --brand-type-2-layer-2-alpha-2:hsl(70,32%,40%);
+
+      /*bg-b-t2l2a3  or, text-b-t2l2a3 */
+      --brand-type-2-layer-2-alpha-3:hsl(70,32%,50%);
+
+          
+          
+        }
+    
+
+    }

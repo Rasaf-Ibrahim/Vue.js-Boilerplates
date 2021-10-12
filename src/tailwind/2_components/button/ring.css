@@ -1,0 +1,35 @@
+@layer utilities {
+
+
+
+    /* type-1 */
+
+    .-btn-ring-t1l1 {
+        @apply 
+        active:ring-4 
+        ring-b-t1l1a1;
+    }
+
+    .-btn-ring-t1l2 {
+        @apply
+        active:ring-4 
+        ring-b-t1l2a1;
+    }
+
+
+    /* type-2 */
+    
+    .-btn-ring-t2l1 {
+        @apply 
+        active:ring-4 
+        ring-b-t2l1a1;
+    }
+
+    .-btn-ring-t2l2 {
+        @apply 
+        active:ring-4 
+        ring-b-t2l2a1;
+    }
+
+
+}

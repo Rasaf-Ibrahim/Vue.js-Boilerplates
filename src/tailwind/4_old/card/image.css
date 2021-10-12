@@ -1,0 +1,20 @@
+@layer utilities {
+
+/* When you choose 'card-1_r' class, choose 'card-image-1_r' class. Similarly when you choose 'card-2_r', choose 'card-image-2_r' and so on.  */
+
+.-card-image-1{
+    @apply
+    w-full h-[14rem] 
+    object-cover;
+}
+
+
+
+.-blog-image-1 {
+    @apply
+    w-full h-[14rem] md:h-[17rem] 
+    object-cover;
+
+}
+
+}

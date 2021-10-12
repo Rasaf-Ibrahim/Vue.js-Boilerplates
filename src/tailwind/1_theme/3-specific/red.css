@@ -1,0 +1,60 @@
+
+@layer base {
+
+
+    :root {
+
+        /*bg-red-l1-a1 or, text-red-l1-a1 */
+       --red-layer-1-alpha-1: hsla(0,85%,40%,1); 
+
+       /*bg-red-l1-a2 or, text-red-l1-a2 */
+       --red-layer-1-alpha-2: hsla(0,85%,40%,0.9); 
+
+       /*bg-red-l1-a2 or, text-red-l1-a2 */
+       --red-layer-1-alpha-3: hsla(0,85%,40%,0.8); 
+
+
+
+
+     
+      /*bg-red-l2-a1 or, text-red-l2-a1 */
+      --red-layer-2-alpha-1: hsla(0,85%,70%,1); 
+          
+      /*bg-red-l2-a2 or, text-red-l2-a2 */
+      --red-layer-2-alpha-2: hsla(0,85%,70%,0.9); 
+    
+      /*bg-red-l2-a2 or, text-red-l2-a2 */
+      --red-layer-2-alpha-3: hsla(0,85%,70%,0.8); 
+
+
+
+    }
+
+
+
+
+    .dark {
+
+        /*bg-red-l1-a1 or, text-red-l1-a1 */
+       --red-layer-1-alpha-1: hsla(0,85%,70%,1); 
+
+       /*bg-red-l1-a2 or, text-red-l1-a2 */
+       --red-layer-1-alpha-2: hsla(0,85%,70%,0.9); 
+
+       /*bg-red-l1-a2 or, text-red-l1-a2 */
+       --red-layer-1-alpha-3: hsla(0,85%,70%,0.8); 
+
+
+
+       /*bg-red-l2-a1 or, text-red-l2-a1 */
+       --red-layer-2-alpha-1: hsla(0,85%,40%,1);
+      
+       /*bg-red-l2-a2 or, text-red-l2-a2 */
+       --red-layer-2-alpha-2: hsla(0,85%,40%,0.9); 
+
+       /*bg-red-l2-a2 or, text-red-l2-a2 */
+       --red-layer-2-alpha-3: hsla(0,85%,40%,0.8); 
+        
+    }
+
+}

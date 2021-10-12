@@ -1,0 +1,11 @@
+@layer utilities {
+
+
+.-card-1-3{
+    @apply
+    max-w-[20rem]
+    rounded-xl shadow-lg 
+}
+
+
+}

@@ -1,0 +1,41 @@
+@layer utilities {
+
+
+.-post-wrapper-sm{
+
+    @apply
+    max-w-[90%]
+    md:max-w-[80%]
+    lg:max-w-[70%]
+    xl:max-w-[60%]
+    mx-auto
+   
+}
+
+
+.-post-wrapper-md{
+
+    @apply
+    max-w-[90%]
+    md:max-w-[83%]
+    lg:max-w-[76%]
+    xl:max-w-[69%]
+    mx-auto
+  
+}
+
+
+.-post-wrapper-lg{
+
+    @apply
+    max-w-[90%]
+    md:max-w-[85%]
+    lg:max-w-[80%]
+    xl:max-w-[75%]
+    mx-auto
+   
+}
+
+
+
+}
