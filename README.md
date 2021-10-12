@@ -16,7 +16,7 @@
 &nbsp;
 
 
-                        
+​                        
 &nbsp;
 ### Vue
 
@@ -30,8 +30,15 @@
 &nbsp;
 
 
-> Vue, TailwindCSS
+> Vue, TailwindCSS (Build Tool: Vite)
 > - Branch Name: 003,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/003)
+> 
+
+&nbsp;
+
+
+> Vue, TailwindCSS (Build Tool: Vue CLI)
+> - Branch Name: 008,  [Branch Link](https://github.com/Rasaf-Ibrahim/Vue.js-Boilerplates/tree/008)
 
 
 &nbsp;
